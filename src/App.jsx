@@ -25,11 +25,10 @@ const App = () => {
 
   const addToBurger = (addedIngredient) => {
     setStack([...stack, addedIngredient])
-
   }
 
-  const removeFromBurger = () => {
-
+  const removeFromBurger = (removedIngredientIndex) => {
+    setStack(stack.filter((ingredient, index) => index !== removedIngredientIndex))
   }
 
   return (
