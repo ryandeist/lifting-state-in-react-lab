@@ -1,6 +1,10 @@
 // `src/components/BurgerStack.jsx`
 const BurgerStack = (props) => {
-    return <ul>// map through props.ingredients</ul>;
+    return ( 
+    <ul>
+        <li>Our Burger</li>
+    </ul>
+    )
   };
   
   export default BurgerStack;
