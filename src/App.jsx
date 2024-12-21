@@ -3,7 +3,7 @@ import './App.css';
 import IngredientList from './components/IngredientList';
 import BurgerStack from './components/BurgerStack';
 
-export const availableIngredients = [
+const availableIngredients = [
   { name: 'Kaiser Bun', color: 'saddlebrown' },
   { name: 'Sesame Bun', color: 'sandybrown' },
   { name: 'Gluten Free Bun', color: 'peru' },
